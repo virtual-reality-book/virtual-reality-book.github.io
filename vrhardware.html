@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Hardware Book</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 40px;
+        }
+        .chapter {
+            margin-bottom: 40px;
+        }
+        .chapter-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .paragraph {
+            text-indent: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chapter">
+        <h1 class="chapter-title">VR Hardware</h1>
+        <div style="text-align: center; margin-bottom: 20px;"></div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Linux_kernel_and_gaming_input-output_latency.svg" alt="VR Hardware Diagram" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="paragraph">
+            <p>The brain is the core processor of a human being. The most direct way for hardware to interact with a person is by linking directly to the brain, such as through Neuralink. However, to accurately connect to the brain currently requires implanting a chip inside the brain and performing craniotomy, which is not practical for most situations. Perhaps one day in the future, it will be possible to achieve something like the way humans connect to the virtual world in The Matrix.
+            <br>
+            Humans primarily have five senses: vision, hearing, smell, taste, and touch. Smell and taste involve the perception of chemicals, which makes them difficult to dynamically generate through hardware and therefore less common. Vision is based on electromagnetic waves, hearing on vibrations, and touch on pressure and temperature—all of which are relatively easy to dynamically generate.</p>
+            <p>
+                The primary device for vision is the display. The performance of different displays varies based on factors such as:
+
+                Resolution
+                Field of View (FOV)
+                Refresh Rate
+                Pixel Density
+                Color Accuracy
+                Contrast
+                Brightness
+                Distortion
+                Glare
+                One of the most important factors is pixels per degree (PPD), calculated as pixels / total field of view. Typically, the focus is on horizontal pixels per degree. For example, the Apple Vision Pro has a horizontal pixel resolution of 3680 and a field of view (FOV) of 120°. This gives a PPD of approximately 3680 / 120 ≈ 30. The higher the PPD, the better the visual quality, up to a limit of 60 PPD, beyond which the human eye cannot differentiate further. Currently, there are no commercial devices that achieve 60 horizontal PPD.
+
+                Other significant factors include:
+
+                Refresh Rate: Higher refresh rates reduce motion blur and latency, ensuring smoother visuals and lowering the risk of motion sickness.
+                Color Accuracy and Contrast: High-quality color representation enhances realism, while better contrast ratios improve depth perception in virtual environments.
+
+
+                Hearing
+                Modern speaker technology can realistically simulate various sounds, including distance, size, and frequency, to the point of being indistinguishable from reality. There are no significant technical barriers in the hardware for sound reproduction.
+
+                Touch
+                Touch is present across almost every part of the body, but sensitivity varies greatly between areas. For details, refer to the somatotopic arrangement. The hands are the most sensitive to touch, so most haptic feedback is delivered through the hands, primarily via controllers. Research is ongoing on haptic gloves and suits, but they are more expensive and cumbersome to wear, which limits their popularity at present.
+
+                Output Methods
+                The primary human output methods are sound and movement. While humans can secrete chemicals, this is not a primary way of interacting with the external world.
+
+                Sound Recognition: In the past, machines struggled with recognizing human speech, but significant breakthroughs have occurred, especially around 2022. Since the rapid development of AI, voice recognition and understanding have become highly accurate within just a couple of years. Better integration into AI systems is only a matter of time.
+                Motion Recognition: The most precise form of control remains controllers, which require minimal training but can be slow for some tasks, such as typing or entering passwords.
+                Gesture and Body Tracking: These are more intuitive and typically use cameras to recognize body movements. However, camera-based tracking has blind spots. Research is being conducted on neural wristbands that detect EMG signals from the body, which theoretically offer greater accuracy without tracking blind spots, though they require an additional wearable device.
+                Brain Signal Detection: Another approach involves directly detecting neural signals from the brain using EEG monitors. While this eliminates the need for external gestures, it suffers from significant noise and low accuracy.
+                Chips
+                The most critical components of VR devices are the CPU and GPU. Many VR headsets use system-on-chip (SoC) technology to reduce size and energy consumption.
+
+                Battery
+                Batteries power high-resolution displays but are limited by weight constraints, resulting in short usage times. Most standalone headsets can operate for only 2-3 hours without an external power source. Battery technology remains a major bottleneck for the widespread adoption of VR devices.
+
+                Sensors
+
+                Eye Tracking: Infrared and high-speed cameras track eye movement. In addition to head orientation, VR displays need to know the exact point of focus of the user’s eyes.
+                Motion Tracking: This involves a compass, accelerometer, and gyroscope. If the user moves while in VR, the system must determine the direction and speed to adjust the virtual scene accordingly.
+            </p>
+    </div>
+</body>
+</html>
